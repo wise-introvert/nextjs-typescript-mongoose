@@ -16,11 +16,17 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["src"],
-      "@models/*": ["src/Models"],
+      "@models/*": ["src/models"],
       "@pages/*": ["pages/"],
       "@components/": ["src/components/"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/**/*", "pages/posts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/api/**/*",
+    "pages/posts"
+  ],
   "exclude": ["node_modules"]
 }

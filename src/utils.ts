@@ -7,9 +7,7 @@ const {
 console.log(MONGO_URI)
 
 const options: ConnectionOptions = {
-    useFindAndModify: true,
     useUnifiedTopology: true,
-    useCreateIndex: true,
     useNewUrlParser: true
 }
 

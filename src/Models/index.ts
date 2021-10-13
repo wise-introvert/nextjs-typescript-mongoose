@@ -1,1 +1,1 @@
-export { Post } from "./Post"
+export { Post } from "./post.model";

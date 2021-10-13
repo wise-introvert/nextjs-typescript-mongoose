@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { IPost } from "src/Models/Post";
+import { IPost } from "src/models/post.model";
 import { useEffect, useState } from "react";
 import Header from "src/components/Header";
 
